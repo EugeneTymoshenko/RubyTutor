@@ -17,4 +17,3 @@ i = Array.new(4) { Array.new(4) { rand(-10..10) } }
 s = 0
 i.flatten.map! { |i| s += i if i < 0 }
 p s
-
