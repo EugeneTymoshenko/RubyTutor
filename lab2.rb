@@ -1,6 +1,5 @@
 h = { '1yesetas' => 23, 'b' => 'travel', 'yesterday' => 34, 5 => '234', :yesss => :fg,
 try: 30, key: 'some value', 'yesterday1' => 34, 'yesteryear' => 2014 }
-#size method
 p h.select {|k| k =~ /\Ayes/}.size
 p h.select {|k| k =~ /\Ayes/}.length
 p h.select {|k| k =~ /\Ayes/}.count
